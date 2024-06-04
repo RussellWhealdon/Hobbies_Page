@@ -52,7 +52,7 @@ with col2:
 col3, col4 = st.columns(2)
 
 with col3:
-    st.markdown(f"<h3 style='text-align: center ; color: white;'>Basketball</h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3 style='text-align: center ; color: white;'>Chess</h3>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>Chess is another passion of mine. I played competitivley when I was younger and have recently picked it back up more casually but will play in tournaments as the club hosts them. The analytical aspact of the game is something I love and interact with the same way I approach problems in my career. Here you can see my playing in Washington Square Park!</p>", unsafe_allow_html=True)
 
 with col4:
