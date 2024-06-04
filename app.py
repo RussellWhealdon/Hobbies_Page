@@ -46,5 +46,9 @@ with col1:
     st.markdown(f"<p style='text-align: center; color: white;'>I was lucky enough to play basketball my freshman year at Occidental College before transferring to Gonzaga University to finish my studies. I love engaging with the incredible basketball culture in New York City. It has been a great way to stay active as well as make connections in a new city! I play in a very competitive league here which you can see in the pic to the right. (The headband gives me focus)</p>", unsafe_allow_html=True)
 
 with col2:
-    st.image("Basketball_Photo.jpg")
+    col3, col4 = st.columns(2)
+    with col3:
+        st.image("Basketball_Photo.jpg")
+    with col4: 
+        st.write(" ")
     
